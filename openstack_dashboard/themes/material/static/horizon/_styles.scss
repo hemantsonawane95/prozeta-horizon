@@ -48,7 +48,7 @@
   &-default {
     .navbar-brand {
       svg {
-        fill: $navbar-default-link-active-color;
+        fill: #006ed2;
       }
     }
 
@@ -72,7 +72,7 @@
       background: $navbar-inverse-link-color;
 
       &:hover {
-        background: $navbar-inverse-link-hover-color;
+        background: #006ed2;
       }
     }
 
