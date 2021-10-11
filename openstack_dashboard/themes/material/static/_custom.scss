@@ -469,4 +469,32 @@
         background-image: none;
         border-color: transparent;
     }
+
+    .login .splash-logo {
+        float: none;
+        width: 400px;
+
+    }
+    .progress-bar-success {
+        background-color: #006ed2;
+    }
+    .chart-numbers {
+        fill: #212121;
+        font-size: 25px;
+    }
+    .datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-bottom {
+    display: inline-flex;
+    top: 602.562px;
+    left: 259px;
+    margin-top: 412px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        background: linear-gradient(-45deg, #006ed2, #FFFFFF, #006ed2, #FFFFFF, #006ed2);
+        background-size: 400% 400%;
+        animation: gradient 20s ease infinite;
+    }
     
