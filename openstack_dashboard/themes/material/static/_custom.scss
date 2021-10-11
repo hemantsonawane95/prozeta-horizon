@@ -1,14 +1,14 @@
 
 .btn-default:hover {
-    background: #00736a;
+    background: #006ed2;
 }
 .btn-danger {
-    background: #00736a;
+    background: #006ed2;
 }
 .btn-primary {
-    background: #00736a;
+    background: #006ed2;
     &:hover {
-        background: #00736a;
+        background: #006ed2;
     }
     &:active {
         background: #2093f5;
@@ -17,7 +17,7 @@
 
 .datepicker table tr td.day:hover,
 .datepicker table tr td.day.focused {
-    background: #00736a;
+    background: #006ed2;
     cursor: pointer;
     color: #ffffff;
 }
@@ -31,7 +31,7 @@ h4.panel-title {
 }
 .panel,
 .help-panel > .well {
-    border: 20px #00736a;
+    border: 20px #006ed2;
     border-radius: 2px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -39,16 +39,16 @@ h4.panel-title {
 .nav > li > a:hover,
 .nav > li > a:focus {
     text-decoration: none;
-    background-color: #00736a;
+    background-color: #006ed2;
     color: white;
 }
 
 .dropdown-menu > li > a:focus {
-    background-color: #00736a;
+    background-color: #006ed2;
 }
 
 .panel-default > .panel-heading {
-    background: #00736a;
+    background: #006ed2;
 }
 
 .login .login-title {
@@ -67,23 +67,23 @@ h4.panel-title {
 }
 
 .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #00736a;
+    background-color: #006ed2;
     color: #fff;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-    background-color: #00736a;
+    background-color: #006ed2;
 }
 
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #00736a;
+    background-color: #006ed2;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #00736a;
+    color: #006ed2;
 }
 
 .dropdown:hover .fa-circle {
@@ -95,13 +95,13 @@ h4.panel-title {
 }
 
 .alert-info {
-    background-color: #00736a;
+    background-color: #006ed2;
 }
 
 #sidebar .openstack-dashboard > a:focus,
 #sidebar .openstack-panel > a:focus,
 #sidebar .nav-header > a:focus {
-    background-color: #00736a;
+    background-color: #006ed2;
     outline: 0;
 }
 
@@ -112,11 +112,11 @@ h4.panel-title {
 }
 
 .navbar-inverse .md-hamburger-layer:hover {
-    background: #00736a;
+    background: #006ed2;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #00736a;
+    background-color: #006ed2;
 }
 
 .navbar-inverse .navbar-toggle:hover,
@@ -450,7 +450,7 @@ strong {
     color: #000000;
 }
 .progress-bar-success:last-child.progress-bar:before {
-    background-color: #00736a;
+    background-color: #006ed2;
 }
 .progress-bar-success {
     background-color: #39892f;
@@ -460,7 +460,7 @@ strong {
     font-size: 25px;
 }
 a {
-    color: #00736a;
+    color: #006ed2;
     text-decoration: none;
     font-size: 15px;
 }
@@ -502,12 +502,12 @@ html,body:not(#splash) {
  }
 
  .pie-chart-usage .arc.inner {
-    fill: #00736a;
+    fill: #006ed2;
     stroke: none;
 }
 
 .alert-success {
-    background-color: #00736a;
+    background-color: #006ed2;
 }
 .form-control, .datepicker input {
     display: block;
@@ -530,12 +530,12 @@ html,body:not(#splash) {
 }
 
 .context-delimiter {
-    color: #00736a;
+    color: #006ed2;
     font-size: 12px;
 }
 
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
-    color: #00736a;
+    color: #006ed2;
     background-color: #e6e6e6;
     background-image: none;
     border-color: transparent;
