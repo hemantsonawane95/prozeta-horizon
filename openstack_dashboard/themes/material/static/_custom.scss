@@ -17,6 +17,7 @@
     .datepicker table tr td.day:hover, .datepicker table tr td.day.focused {
         background: #006ed2;
         cursor: pointer;
+        color: #ffffff;
     }
     
     .login form .panel-default > .panel-heading {
@@ -42,7 +43,9 @@
         background-color: #006ed2;
     }
     
-    .panel-default > .panel-heading {background: #006ed2;}
+    .panel-default > .panel-heading {
+    background: #006ed2;
+    }
     
     .login .login-title {
         text-align: center;
@@ -67,7 +70,9 @@
         background-color: #006ed2;
     }
     
-    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    .navbar-inverse .navbar-nav > .open > a, 
+    .navbar-inverse .navbar-nav > .open > a:hover, 
+    .navbar-inverse .navbar-nav > .open > a:focus {
         background-color: #006ed2;
     }
     
@@ -88,14 +93,17 @@
     }
     
     
-    #sidebar .openstack-dashboard > a:focus, #sidebar .openstack-panel > a:focus, #sidebar .nav-header > a:focus {
+    #sidebar .openstack-dashboard > a:focus, 
+    #sidebar .openstack-panel > a:focus, 
+    #sidebar .nav-header > a:focus {
         background-color: #006ed2;
         outline: 0;
     }
     
     .navbar-brand img {
-        height: 50px;
-        width: auto;
+         height: 40px;
+         width: 150px;
+         margin-bottom: 10px;
     }
     
     .navbar-inverse .md-hamburger-layer:hover {
@@ -106,7 +114,8 @@
         background-color: #006ed2;
     }
     
-    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    .navbar-inverse .navbar-toggle:hover, 
+    .navbar-inverse .navbar-toggle:focus {
         background-color: transparent;
     }
     
@@ -372,12 +381,7 @@
     z-index:0;
     }
     
-    body{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-    }
-    
+       
     .page-breadcrumb{
         display: flex;
         background-color: #f5f5f5;
@@ -420,17 +424,7 @@
     margin-top: 50px;
     }
     }
-     
-    
-     .body-card{
-        background-color: white;
-        border-radius: 4px;
-        box-shadow: white;
-        flex-basis: 50%;
-    
-     }
-    
-     .pie-chart-usage .arc.inner {
+    .pie-chart-usage .arc.inner {
         fill: #006ed2;
         stroke: none;
     }
