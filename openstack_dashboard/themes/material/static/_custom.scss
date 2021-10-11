@@ -101,9 +101,9 @@
     }
     
     .navbar-brand img {
-         height: 40px;
+         height: 50px;
          width: 150px;
-         margin-bottom: 10px;
+         
     }
     
     .navbar-inverse .md-hamburger-layer:hover {
@@ -485,9 +485,9 @@
 
     body {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         position: relative;
-        background: linear-gradient(-45deg, #006ed2, #FFFFFF, #006ed2, #FFFFFF, #006ed2);
+        background: linear-gradient(-45deg, #006ed2, #7fb1e3, #006ed2, #4298ed, #006ed2);
         background-size: 400% 400%;
         animation: gradient 20s ease infinite;
     }
